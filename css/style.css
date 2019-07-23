@@ -24,19 +24,19 @@ border-bottom:2px solid black;
 .dropdown:hover > .dropdown-menu {
 display: block;
 }
-.hire-button{
-border: 2px solid #2b2a2c!important;
+#navbarNavDropdown .navbar-nav .nav-item .hire-button{
+border: 2px solid #2b2a2c;
 border-radius: 50px;
-padding:7px 27px!important;
+padding:7px 27px;
 }
-.hire-button:hover{
-border: 2px solid #2b2a2c!important;
+#navbarNavDropdown .navbar-nav .nav-item .hire-button:hover{
+border: 2px solid #2b2a2c;
 border-radius: 50px;
-padding:7px 27px!important;
+padding:7px 27px;
 background-color: #2b2a2c;
-color:#fff!important;
+color:#fff;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-transition: all 2s;
+transition: all 1s;
 }
 
 .navbar-collapse {
@@ -59,7 +59,7 @@ border: 0;
 padding-right: 0px;
 }
 .nav-space{
-padding:0!important;
+padding:0;
 }
 .navbar-alignment{
 align-items:center;   
@@ -71,6 +71,7 @@ button:focus {
     outline: none;
 }
 /*navbar section end here*/
+/*about us section start here*/
 
 .main-banner{
 max-width:100%;
@@ -119,18 +120,20 @@ margin-top:45px;
 .button-hire-me{
 padding:13px 48px;
 border:1px solid #6a696b;
-color:white!important ;
-color: #333!important;
+color:white;
+color: #333;
 border-radius:50px;
 font-weight:600;
 transition:all 2s;
+
 }
 .button-hire-me:hover{
 background-color:#2b2a2c;
-color:white!important ;
+color:#fff;
 border-radius:50px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 text-decoration: none;
+cursor: pointer;
 }
 .button-resume{
 padding:13px 46px;
@@ -143,13 +146,14 @@ font-weight:600;
 .button-resume:hover{
 padding:13px 46px;
 border:1px solid #6a696b;
-color:white!important ;
+color:white;
 border-radius:50px;
 margin:20px 20px;
 background-color:#2b2a2c;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 text-decoration: none;
 transition:all 2s;
+cursor: pointer;
 }
 .border-bottom{
 border-bottom:1px solid #eeeeee;
@@ -174,17 +178,17 @@ justify-content: center;
 border: none;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-color: #000!important;
+color: #000;
 border-color:transparent;
 border-bottom: 1px solid black;
 padding: 00;
 margin: 8px 16px;
 }
 .nav-item .tab-color{
-color:#818084!important;
+color:#818084;
 }
 .nav-item .tab-color:hover{
-color:#000!important;
+color:#000;
 border:1px solid transparent;
 }
 .button-container{
@@ -194,13 +198,13 @@ margin: 50px 0;
 .work-button{
 padding:10px 30px;
 border:1px solid #2b2a2c;
-color: #333!important;
+color: #333;
 border-radius:50px;
 font-weight:600;
 }
 .work-button:hover{
 background-color:#2b2a2c; 
-color: #fff!important;
+color: #fff;
 text-decoration: none;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: all 2s;
@@ -275,7 +279,7 @@ padding:50px 0;
 .testimonals-img{
 border-radius: 50%;
 height: 90px;
-width: 90px!important;
+max-width:90px;
 margin: 0 auto;
 border:5px solid #b49e9e;
 }
@@ -290,7 +294,7 @@ display: flex;
 align-items: center;
 -ms-flex-pack: center;
 justify-content: center;
-width: 1%!important;
+max-width:1%;
 color: #fff;
 text-align: center;
 opacity: .5;
@@ -373,18 +377,18 @@ color:#717072;
 line-height:22px;
 }
 .readmore-button{
-border: 1px solid #717072!important;
+border: 1px solid #717072;
 border-radius: 50px;
-padding:7px 22px!important;
+padding:7px 22px;
 font-size:14px;
 font-weight: bolder;
 color:#717072;
 text-decoration:none;
 }
 .readmore-button:hover{
-border: 1px solid #2b2a2c!important;
+border: 1px solid #2b2a2c;
 background-color: #2b2a2c;
-color:#fff!important;
+color:#fff;
 text-decoration:none;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transition: all 2s;
@@ -441,6 +445,17 @@ font-size:18px;
 .footer-text{
 font-size:14px;
 }
+.footer-icon{
+ color: #8d8d8e;   
+}
+.footer-icon:hover{
+ color: #fff;   
+}
+
+.navbar-toggler span i:hover{
+     color: #8d8d8e; 
+}
+
 .fa{
 color: #8d8d8e;
 }
@@ -455,17 +470,17 @@ font-size:14px;
 color: #fff;
 font-size:14px;
 }
-.footer-button{
-border: 1px solid #8d8d8e!important;
+footer .right-section .footer-button{
+border: 1px solid #8d8d8e;
 border-radius: 50px;
 font-weight:bolder;
 font-family:Montserrat;
-padding:6px 27px!important;
+padding:6px 27px;
 }
-.footer-button:hover{
-border: 1px solid #8d8d8e!important;
+footer .right-section .footer-button:hover{
+border: 1px solid #8d8d8e;
 background-color: #8d8d8e;
-transition: all 2s;
+transition: all 1s;
 }
 .tab-content .card {
 display: -ms-flexbox;
@@ -515,6 +530,7 @@ display: flex;
 justify-content:space-between;
 align-items: center;
 }
+
 /*footer end here*/
 
 
@@ -531,7 +547,7 @@ background-color: #fff;
 background-clip: border-box;
 border: 1px solid transparent;
 border-radius: .25rem;
-flex-basis:30%!important;
+flex-basis:30%;
 }
 .main-banner{
 width: 100%;
@@ -551,7 +567,7 @@ background-color: #fff;
 background-clip: border-box;
 border: 1px solid transparent;
 border-radius: .25rem;
-flex-basis:30%!important;
+flex-basis:30%;
 }
 }
 @media only screen and (max-width:992px) {
@@ -567,7 +583,7 @@ background-color: #fff;
 background-clip: border-box;
 border: 1px solid transparent;
 border-radius: .25rem;
-flex-basis:29%!important;
+flex-basis:29%;
 }
 .leftside .about-h2{
 font-weight:bold;
@@ -592,7 +608,7 @@ font-family: Montserrat;
 font-size: 13px;
 }
 .about-section {
-padding: 30px 0 0px 0;
+padding: 30px 0 70px 0;
 }
 .testimonals {
 background-image: url(../images/background.png);
@@ -638,7 +654,7 @@ display: none;
 .button-resume:hover{
 padding:8px 28px;
 border:1px solid #6a696b;
-color:white!important ;
+color:white;
 border-radius:50px;
 margin:20px 20px;
 background-color:#2b2a2c;
@@ -649,13 +665,13 @@ transition:all 2s;
 .button-hire-me {
     padding: 10px 14px;
     border: 1px solid #6a696b;
-    color: white!important;
-    color: #333!important;
+    color: white;
+    color: #333;
     border-radius: 50px;
     font-weight: 600;
 }
 .border-bottom {
-    border-bottom: 1px solid white!important;
+    border-bottom: 1px solid white;
 }
 .main-nav .nav-collapse-nav ul li .nav-link {
     color: #000;
@@ -683,7 +699,6 @@ widows: 1;
 
 .card {
 position: relative;
-display: -ms-flexbox;
 display: flex;
 -ms-flex-direction: column;
 flex-direction: column;
@@ -693,15 +708,13 @@ background-color: #fff;
 background-clip: border-box;
 border: 1px solid transparent;
 border-radius: .25rem;
-flex-basis:44%!important;
+flex-basis:44%;
 }
 .three-card{
 text-align: center;
 }
 
 .card-columns {
--webkit-column-count: 3;
--moz-column-count: 3;
 column-count: 1;
 -webkit-column-gap: 1.25rem;
 -moz-column-gap: 1.25rem;
@@ -750,13 +763,17 @@ margin-top: 60px;
 padding: 15px 0;
 }
 .text-right {
-text-align:center!important;
+text-align:center;
 }
 .card-padding {
     padding-left: 20px;
 }
 .testimonals-para {
     padding: 0 0;
+}
+.leftside {
+    margin-top:0px;
+    margin-bottom:0px;
 }
     
 }
@@ -802,7 +819,7 @@ background-color: #fff;
 background-clip: border-box;
 border: 1px solid transparent;
 border-radius: .25rem;
-flex-basis:44%!important;
+flex-basis:44%;
 text-align: center;
 }
 .testimonals {

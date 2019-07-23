@@ -819,6 +819,12 @@ text-align:center;
     margin-top:0px;
     margin-bottom:0px;
 }
+.card-order:hover{
+border:none;
+transform:none;
+transition:none;
+border:1px solid transparent;
+}
     
 }
 @media only screen and (max-width:600px) {

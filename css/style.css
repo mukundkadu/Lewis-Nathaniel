@@ -118,10 +118,11 @@ transition: all .4s ease;
 margin-top:45px;
 }
 .button-hire-me{
+background-color:#2b2a2c;    
 padding:13px 48px;
 border:1px solid #6a696b;
 color:white;
-color: #333;
+color: #fff;
 border-radius:50px;
 font-weight:600;
 transition:all 2s;
@@ -156,10 +157,11 @@ transition:all 2s;
 cursor: pointer;
 }
 #button-hire-me{
+background-color:#2b2a2c;      
 padding:13px 48px;
 border:1px solid #6a696b;
 color:white;
-color: #333;
+color: #fff;
 border-radius:50px;
 font-weight:600;
 transition:all 2s;
